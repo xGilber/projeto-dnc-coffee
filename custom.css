@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-article .btn-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.custom-article .btn-buy button {
+  box-sizing: border-box;
+
+  width: 202px;
+  height: 48px;
+
+  background: #2a3342;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #f6f5fb;
+
+  margin-bottom: 15px;
+}
+
+#modal {
+  background: rgba(129, 129, 129, 0.733);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#modal #modal-element {
+  display: flex;
+  flex-direction: column;
+
+  width: 671px;
+  height: auto;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#modal #modal-element #close {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 26px;
+  margin-top:25px;
+}
+
+#modal #modal-element #close img{
+cursor: pointer;
+padding: 5px;
+}
+
+
+#modal #modal-element #m_title {
+  margin-top: 112px;
+  margin-bottom: 69px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 20px;
+  /* identical to box height, or 51% */
+
+  color: #000000;
+}
+
+#modal #modal-element #m_content {
+  margin-bottom: 65px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 40px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+#modal #modal-element #m_button {
+margin-bottom:80px;
+
+}
+
+
+#modal #modal-element #m_button button {
+  box-sizing: border-box;
+
+  width: 253px;
+  height: 48px;
+
+  background: #2a3342;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #f6f5fb;
+}
